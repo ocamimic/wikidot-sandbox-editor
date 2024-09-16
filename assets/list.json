@@ -2,7 +2,7 @@
     "list": {
         "!format": {
             "display": "[[...format]]",
-            "value": ["[[include :scp-jp:credit:start]]\n**タイトル:** SCP-XXX-JP - (記事のメタタイトル)\n**著者:** [[*user (あなたのWikidotID)]]\n**作成年:** 記事作成年\n[[include :scp-jp:credit:end]]\n\n**アイテム番号:** SCP-XXXX-JP\n\n**オブジェクトクラス:** Euclid\n\n**特別収容プロトコル:** text\n\n**説明:** ", ""]
+            "value": ["[[include :scp-jp:credit:start]]\n**タイトル:** SCP-XXXX-JP - (記事のメタタイトル)\n**著者:** [[*user (あなたのWikidotID)]]\n**作成年:** 20XX\n[[include :scp-jp:credit:end]]\n\n**アイテム番号:** SCP-XXXX-JP\n\n**オブジェクトクラス:** Euclid\n\n**特別収容プロトコル:** text\n\n**説明:** ", ""]
         },
         "!jstyle": {
             "display": "[[...jstyle]]",
