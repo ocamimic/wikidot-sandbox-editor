@@ -2,19 +2,23 @@
     "list": {
         "!format": {
             "display": "[[...format]]",
-            "value": ["[[>]]\n[[module Rate]]\n[[/>]]\n\n**Item #:** SCP-XXXX\n\n**Object Class:** Euclid\n\n**Special Containment Procedures:** text\n\n**Description:** ", ""]
+            "value": ["[[include :scp-jp:credit:start]]\n**タイトル:** SCP-XXX-JP - (記事のメタタイトル)\n**著者:** [[*user (あなたのWikidotID)]]\n**作成年:** 記事作成年\n[[include :scp-jp:credit:end]]\n\n**アイテム番号:** SCP-XXXX-JP\n\n**オブジェクトクラス:** Euclid\n\n**特別収容プロトコル:** text\n\n**説明:** ", ""]
+        },
+        "!jstyle": {
+            "display": "[[...jstyle]]",
+            "value": ["[[include :scp-jp:component:jstyles]]", ""]
         },
         "!bhl": {
             "display": "[[...bhl]]",
-            "value": ["[[include :scp-wiki:theme:black-highlighter-theme]]", ""]
+            "value": ["[[include :scp-jp:theme:black-highlighter-theme]]", ""]
         },
         "!collapsible": {
             "display": "[[collapsible]]",
-            "value": ["[[collapsible show=\"+ open\" hide=\"- close\"]]\n", "\n[[/collapsible]]"]
+            "value": ["[[collapsible show=\"+ 開く\" hide=\"- 閉じる\"]]\n", "\n[[/collapsible]]"]
         },
         "!colmod": {
             "display": "[[...colmod]]",
-            "value": ["[[include :scp-int:component:coltop show=+open|hide=-close]]\n", "\n[[include :scp-int:component:colend]]"]
+            "value": ["[[include component:coltop show=+ 開く|hide=- 閉じる]]\n", "\n[[include component:colend nohide=true]]"]
         },
         "!size": {
             "display": "[[size]]",
@@ -34,7 +38,7 @@
         },
         "!color": {
             "display": "##color##",
-            "value": ["###b01|", "##"]
+            "value": ["##b01|", "##"]
         },
         "!box": {
             "display": "blackbox(█)",
@@ -59,10 +63,6 @@
         "!listUsers": {
             "display": "[[...listUsers]]",
             "value": ["[[include :topia:listusers-1 users=\".\"]]\n##red|%%name%%##\ntext for wikidot user\n[[include :topia:listusers-2]]\n##blue|guest##\ntext for non-wikidot user\n[[include :topia:listusers-3]]", ""]
-        },
-        "!footer": {
-            "display": "[[...footer-wikiwalk-nav]]",
-            "value": ["[[div class=\"footer-wikiwalk-nav\"]]\n= << [[[SCP-XXXX]]] | SCP-XXXX | [[[SCP-XXXX]]] >>\n[[/div]]", ""]
         }
     }
 }
