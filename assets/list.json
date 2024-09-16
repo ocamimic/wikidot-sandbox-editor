@@ -2,11 +2,11 @@
     "list": {
         "!format": {
             "display": "[[...format]]",
-            "value": ["[[>]]\n[[module Rate]]\n[[/>]]\n\n**アイテム番号:** SCP-XXXX-JP\n\n**オブジェクトクラス:** Euclid\n\n**特別収容プロトコル:** text\n\n**説明:** ", ""]
+            "value": ["[[include :scp-jp:credit:start]]\n**タイトル:** SCP-XXXX-JP - (記事のメタタイトル)\n**著者:** [[*user (あなたのWikidotID)]]\n**作成年:** 20XX\n[[include :scp-jp:credit:end]]\n\n**アイテム番号:** SCP-XXXX-JP\n\n**オブジェクトクラス:** Euclid\n\n**特別収容プロトコル:** text\n\n**説明:** ", ""]
         },
         "!jstyle": {
             "display": "[[...jstyle]]",
-            "value": ["[[include :scp-jp-sandbox2:inc:jstyles]]", ""]
+            "value": ["[[include :scp-jp:component:jstyles]]", ""]
         },
         "!bhl": {
             "display": "[[...bhl]]",
@@ -38,7 +38,7 @@
         },
         "!color": {
             "display": "##color##",
-            "value": ["###b01|", "##"]
+            "value": ["##b01|", "##"]
         },
         "!box": {
             "display": "blackbox(█)",
