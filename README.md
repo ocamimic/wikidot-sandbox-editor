@@ -1,5 +1,7 @@
 > ### 元は[こちら](https://github.com/7happy7/wikidot-sandbox-editor/tree/jp)
-> このリポジトリはクレジットモジュール対応版です。
+> このリポジトリはクレジットモジュール対応版です。<br />
+> **Q.**具体的に何が変わったの?<br />
+> **A.**assets/listt.jsonの中身を少し書き換えました。
 
 ----
 # Wikidot - サンドボックスエディター (ver 1.0.2)
